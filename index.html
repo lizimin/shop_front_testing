@@ -6,6 +6,7 @@
           if (!clientWidth) return;
           var ft = 320 / 7.5 * (clientWidth / 320);
           docEl.style.fontSize = (ft > 65 ? 65 : ft) + 'px';
+
         };
       if (!doc.addEventListener) return;
       win.addEventListener(resizeEvt, recalc, false);
